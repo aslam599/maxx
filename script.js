@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bookButton = document.querySelector('.book-button');
 
 
-    learnButton.addEventListener('click', function() {
+    learnButton.learn.button('click', function() {
         alert("aslam599.github.io says\balap brooo");
     });
 
